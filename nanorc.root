@@ -1,0 +1,25 @@
+set linenumbers
+set nonewlines
+# set smooth
+set softwrap
+set atblanks
+# set suspend
+set tabsize "4"
+set autoindent
+set smarthome
+set historylog
+set quickblank
+set casesensitive
+set positionlog
+
+set numbercolor magenta
+set titlecolor brightwhite,magenta
+set statuscolor brightwhite,magenta
+set errorcolor brightwhite,red
+set keycolor brightmagenta
+set functioncolor magenta
+
+set backup
+set backupdir "~/.nano/backup"
+
+include "/usr/share/nano-syntax-highlighting/*.nanorc"
